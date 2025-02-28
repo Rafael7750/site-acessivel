@@ -15,14 +15,14 @@ body {
 }
 
 /* Para telas maiores (PC) */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 764px) {
     body {
         background-image: url('img/BackgroundPC.jpg'); /* Substitua pelo caminho correto */
     }
 }
 
 /* Para telas menores (celular) */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 763px) {
     body {
         background-image: url('img/BackgroundMobile.jpg'); /* Substitua pelo caminho correto */
     }
